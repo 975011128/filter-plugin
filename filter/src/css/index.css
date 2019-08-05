@@ -1,0 +1,67 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.wrapper {
+    width: 350px;
+    padding: 10px 15px;
+}
+
+.wrapper {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 100px auto 0px;
+}
+
+.wrapper input {
+    outline: none;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.wrapper span {
+    color: #3c8dff;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.wrapper span.active {
+    color: #fff;
+    background-color: #3c8dff;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+.wrapper .friendSection {
+    margin-top: 20px;
+}
+
+.wrapper ul li {
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    border-bottom: 1px solid #ddd;
+}
+
+.wrapper ul li img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 0px;
+}
+
+.wrapper ul li .name {
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.wrapper ul li .des {
+    font-size: 14px;
+    color: #999;
+}
